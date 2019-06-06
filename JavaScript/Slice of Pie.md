@@ -27,6 +27,11 @@ equalSlices(24, 12, 2) ➞ true
 
 ## My Code
 ```js
+//Using arrow function:
+const equalSlices = (total, people, each) => total >= people * each ? true : false
+
+//Or the long way:
+
 function equalSlices(total, people, each) {
 	if (total >= people * each) {
 		return true;
