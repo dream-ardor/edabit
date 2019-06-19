@@ -15,4 +15,7 @@ sameCase("ketcHUp") ➞ false
 ## My Code
 ```js
 const sameCase = str => str == str.toLowerCase() || str == str.toUpperCase();
+
+//Using Regex
+const sameCase = str => /^[A-Z]*$/.test(str) || /^[a-z]*$/.test(str);
 ```
