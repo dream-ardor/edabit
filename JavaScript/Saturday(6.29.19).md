@@ -7,7 +7,7 @@ charCount("a", "edabit") ➞ 1
 charCount("c", "Chamber of secrets") ➞ 1
 
 charCount("b", "big fat bubble") ➞ 4
-### My Code :fire:
+### :fire: My Code 
 ```js
 const charCount = (myChar, str) => str.split('')
 .filter(x => x === myChar).length;
@@ -23,7 +23,7 @@ hashPlusCount("##+++#") ➞ [3, 3]
 hashPlusCount("#+++#+#++#") ➞ [4, 6]
 
 hashPlusCount("") ➞ [0, 0]
-### My Code :zap:
+### :zap:My Code
 ```js
 const hashPlusCount = str => [
 (str.match(/#/g) || "").length,
@@ -43,7 +43,7 @@ societyName(["Harry", "Newt", "Luna", "Cho"]) ➞ "CHLN"
 societyName(["Phoebe", "Chandler", "Rachel", "Ross", "Monica", "Joey"]) ➞ "CJMPRR"
 ```
 
-### My Code :cyclone:
+### :cyclone:My Code 
 ```js
 const societyName = friends => 
 friends.map((x) => x[0]).sort().join('').toUpperCase();
