@@ -90,7 +90,7 @@ def is_palindrome(txt):
 	  return True
 	else:
 	  return False
-//alternate solution
+#alternate solution
 def is_palindrome(txt):
 		return txt == txt[::-1]
 ```
