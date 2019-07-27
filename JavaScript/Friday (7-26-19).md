@@ -14,7 +14,7 @@ limitNumber(14, 1, 10) ➞ 10
 
 limitNumber(4.6, 1, 10) ➞ 4.6
 ```
-### My Code
+### :house:My Code
 ```js
 let limitNumber = (num, low, high) => num < low ? low : num > high ? high : num;
 ```
@@ -31,7 +31,7 @@ doubleLetters("orange") ➞ false
 
 doubleLetters("munchkin") ➞ false
 ```
-### My Code
+### :house_with_garden:My Code
 ```js
 const doubleLetters = w =>/(.)\1/g .test(w);
 
@@ -52,7 +52,7 @@ uniqueSort([1, 4, 4, 4, 4, 4, 3, 2, 1, 2]) ➞ [1, 2, 3, 4]
 
 uniqueSort([6, 7, 3, 2, 1]) ➞ [1, 2, 3, 6, 7]
 ```
-### My Code
+### :school:My Code
 ```js
 const uniqueSort = arr => [...new Set(arr)].sort((a,b)=> a-b);
 ```
@@ -70,7 +70,7 @@ isPalindrome("") ➞ true
 isPalindrome("ad") ➞ false
 ```
 
-### My Code
+### :bank:My Code
 ```js
 const isPalindrome = str => str.length < 2 ? true : str.endsWith(str[0]) ? isPalindrome(str.slice(1,-1)) : false;
 ```
