@@ -20,4 +20,7 @@ The amount of * is the same as the length of the word.
 const censor = s => s.split(' ') 
  .map(x => x.length > 4 ?  
    x.replace(x, "*".repeat(x.length)): x).join(' ');
+   
+//using regex
+const censor = s => s .replace(/\w{5,}/g, a => '*'.repeat(a.length));
 ```
