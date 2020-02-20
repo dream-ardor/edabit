@@ -18,4 +18,10 @@ const returnEndOfNumber = n => {
       b = n % 100;
   return n + '-' +(a[(b-20)%10]||a[b]||a[0]);
 }
+
+//alternate solution
+const returnEndOfNumber = n =>
+ String(n).endsWith('4') ? `${n}-TH` :
+ String(n).endsWith('2') ? `${n}-ND` :
+ String(n).endsWith('3') ? `${n}-RD` :`${n}-ST`;
 ```
