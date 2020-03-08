@@ -18,6 +18,6 @@ const oddishOrEvenish = n =>
  
  //alternate
  const oddishOrEvenish = n =>
- [...n+')].reduce((a,b) => +a + +b) % 2 ? 'Oddish' : 'Evenish';
+ [...n+''].reduce((a,b) => +a + +b) % 2 ? 'Oddish' : 'Evenish';
  
 ```
