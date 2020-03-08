@@ -15,4 +15,9 @@ oddishOrEvenish(4433) ➞ "Evenish"
 ```js
 const oddishOrEvenish = n =>
  [...String(n)].reduce((a,b) => +a + +b) % 2 ? 'Oddish' : 'Evenish';
+ 
+ //alternate
+ const oddishOrEvenish = n =>
+ [...n+')].reduce((a,b) => +a + +b) % 2 ? 'Oddish' : 'Evenish';
+ 
 ```
