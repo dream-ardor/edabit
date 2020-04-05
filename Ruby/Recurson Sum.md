@@ -12,6 +12,6 @@ sum(12) ➞ 78
 ### :golf:My Code
 ```ruby
 def sum(n)
-	return n == 1 ? 1 : n + sum(n-1)
+ n < 2 ? n : n + sum(n-1)
 end
 ```
