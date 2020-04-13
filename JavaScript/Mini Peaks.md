@@ -15,6 +15,9 @@ If no such numbers exist, return an empty array.
 ```
 ### :computer: My Code
 ```js
+const miniPeaks = a => a.filter((a,b,c)=> a > c[b-1] && a > c[b+1]);
+
+//alternate
 const miniPeaks = a => {
   let b = [];
   for (let i = 1; i < a.length - 1; i++) {
