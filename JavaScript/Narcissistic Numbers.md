@@ -18,6 +18,10 @@ isNarcissistic(9) ➞ true
 ```
 ### :jack_o_lantern: My Code
 ```js
+const isNarcissistic = n =>
+ [...n+''].map(x => x**[...n+''].length).reduce((a,b)=>a+b) == n;
+
+//alternate
 function isNarcissistic(n) {
   let pow = n.toString().split('').map(x => 
     Math.pow(x, n.toString().length));
