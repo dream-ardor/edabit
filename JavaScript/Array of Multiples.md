@@ -14,6 +14,9 @@ Notice that num is also included in the returned array.
 ```
 ### :computer: My Code
 ```js
+const arrayOfMultiples = (a,b) => 
+ [...Array(b).keys()].map(x => ++x*a);
+
 const arrayOfMultiples = (n,N) =>
  Array.from({ length: N }, (_, i) => n * (i + 1));
  
