@@ -1,0 +1,22 @@
+## Verbed Nouns
+
+Create a function that ends the first word of a phrase with "ed", essentially verbifying a noun.
+```js
+Examples
+verbify("cheese burger") ➞ "cheesed burger"
+
+verbify("salt water") ➞ "salted water"
+
+verbify("orange juice") ➞ "oranged juice"
+
+verbify("shredded cheese") ➞ "shredded cheese"
+
+Notes:
+Change only the first word.
+Note that some words may already end in "e" or "ed".
+All phrases will be in lowercase.
+```
+### :computer: My Code
+```js
+const verbify = s => s.replace(/e?d? /,'ed ');
+```
