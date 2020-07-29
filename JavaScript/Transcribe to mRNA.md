@@ -15,6 +15,10 @@ A, T, G and C in DNA converts to U, A, C and G respectively in mRNA.
 ```
 ### :sunny: My Code
 ```js
+const dnaToRna = d => [...d].map(a => a == 'A' ? 'U' : a == 'T' ? 'A'
+ : a == 'G' ? 'C' : 'G').join('');
+  
+//alternate
 const dnaToRna = d => [...d].map(a => a ==  'C' ? a.replace('C', 'G') :
  a ==  'G' ? a.replace('G', 'C') : a ==  'T' ? a.replace('T', 'A'):
  a.replace('A', 'U')).join('');
