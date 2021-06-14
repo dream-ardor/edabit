@@ -16,6 +16,6 @@ Don't forget to return your result as a string.
 ### :iphone: My Code
 ```swift
 func Go(_ n: Int) -> String {
- return String(repeating: "-", count: n)
+ return String(repeating: "-", count: n);
 }
 ```
