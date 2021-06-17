@@ -17,5 +17,5 @@ longest_string(str1, str2) ➞ "abcdefghijklmnopqrstuvwxyz"
 ```
 ### :snake: My Code
 ```python
-longest_string = lambda a,b:''.join((sorted(set(a+b))))
+longest_string = lambda a,b:''.join((sorted(set(a + b))))
 ```
