@@ -15,7 +15,7 @@ footballPoints(0, 0, 1) ➞ 0
 ```
 ### 🏈 My Code
 ```php
-function footballPoints($w, $d,$l) {
+function footballPoints($w,$d,$l) {
   return $w * 3 + $d;
  }
 ```
