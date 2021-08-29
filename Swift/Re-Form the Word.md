@@ -11,5 +11,10 @@ getWord("lang", "uage") ➞ "Language"
 ```
 ### ☀️ My Code
 ```swift
+
+let getWord: (String,String) -> String = {($0+$1).capitalized}
+
+or 
+
 let getWord : (String, String) -> String = {"\($0)\($1)".capitalized}
 ```
