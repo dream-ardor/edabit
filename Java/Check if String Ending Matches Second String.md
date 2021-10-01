@@ -16,7 +16,7 @@ checkEnding("convention", "tio") ➞ false
 ### :coffee: My Code
 ```java
 public class Challenge {
-  public static boolean checkEnding(String s1,String s2) {
+  public static boolean checkEnding(String s1, String s2) {
     return s1.endsWith(s2);
   }
 }
