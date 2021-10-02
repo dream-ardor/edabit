@@ -11,5 +11,5 @@ ConcatName("Mary", "Jane") ➞ "Jane, Mary"
 ```
 ### 🌳 My Code
 ```c#
-class Program {public static string ConcatName(string f,string l)=> l + ", " + f;}
+class Program {public static string ConcatName(string f, string l) => l + ", " + f;}
 ```
