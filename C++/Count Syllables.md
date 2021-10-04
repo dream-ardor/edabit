@@ -14,6 +14,6 @@ numberSyllables("on-o-mat-o-poe-ia") ➞ 6
 ### :palm_tree: My Code
 ```c++
 int numberSyllables(std::string w) {
- return count(w.begin(),w.end(),'-') + 1;
+ return count(w.begin(), w.end(),'-') + 1;
 }
 ```
