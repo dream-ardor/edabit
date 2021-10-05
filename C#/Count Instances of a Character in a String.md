@@ -15,5 +15,5 @@ using System.Linq;
 class Program {public static int CharCount(char a,string s)=> s.Count(b => b == a);}
 
 //alternative solution
-public class Program {public static int CharCount(char c, string s)=> s.Split(c).Length-1;}
+public class Program {public static int CharCount(char c, string s)=> s.Split(c).Length - 1;}
 ```
