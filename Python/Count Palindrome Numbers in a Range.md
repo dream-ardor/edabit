@@ -14,5 +14,5 @@ count_palindromes(878, 898) ➞ 3
 ### :snake: My Code
 ```python
 def count_palindromes(a, b):
- return sum(str(i)==str(i)[::-1] for i in range(a,b+1))
+ return sum(str(i)==str(i)[::-1] for i in range(a, b + 1))
 ```
