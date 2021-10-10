@@ -18,5 +18,5 @@ You can expect negative numbers too.
 ### :palm_tree: My Code
 ```c++
 #include <cmath>
-#define numberSplit(n)std::vector<int>{(int)floor(n/2.f),(int)ceil(n/2.f)}
+#define numberSplit(n)std::vector<int>{(int) floor(n / 2.f), (int) ceil(n / 2.f)}
 ```
