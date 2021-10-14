@@ -13,7 +13,7 @@ points(38, 8) ➞ 100
 ```java
 public class BasketballPoints { 
   public static int points(int a, int b) {
-   return a*2 + b*3;
+   return a * 2 + b * 3;
   }
 }
 ```
