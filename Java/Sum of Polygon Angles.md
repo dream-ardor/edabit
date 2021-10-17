@@ -13,7 +13,7 @@ sumOfAngles(6) ➞ 720
  ```java
 class Polygon { 
 static int sumOfAngles(int n) {
-  return (n-2) * 180;
+  return (n - 2) * 180;
   }
 }
  ```
