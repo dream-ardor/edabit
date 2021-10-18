@@ -19,11 +19,11 @@ evenLast([-11, 3, 3, 1, 10]) ➞ 20
 ```
 ### 🌴 My Code
 ```js
-const evenLast = a => a.filter((b,c) => c % 2 == 0).reduce((a,b)=>a+b,0) * a.slice(-1);
+const evenLast = a => a.filter((b, c) => c % 2 == 0).reduce((a,b)=>a+b,0) * a.slice(-1);
 
 
 //alternate solutions
-const evenLast = r => r.reduce((a,c,i) => !(i % 2) ? a + c * r[r.length-1]: a, 0);
+const evenLast = r => r.reduce((a, c, i) => !(i % 2) ? a + c * r[r.length-1]: a, 0);
 
 const evenLast = arr => arr.reduce((a, b, i) => a + (i%2 ? 0 : b), 0) * arr.pop() || 0;
 ```
