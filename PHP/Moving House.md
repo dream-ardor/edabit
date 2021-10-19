@@ -13,7 +13,7 @@ yearsInOneHouse(80, 0) ➞ 80
 ```
 ### 🏠 My Code
 ```php
-function yearsInOneHouse($a,$m) {
-  return round($a/($m + 1));
+function yearsInOneHouse($a, $m) {
+  return round($a / ($m + 1));
 }
 ```
