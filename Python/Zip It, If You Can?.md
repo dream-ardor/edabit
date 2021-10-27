@@ -18,5 +18,5 @@ zip_it(['Ana', 'Amy', 'Lisa'], ['Bob', 'Josh', 'Tim'])
  ### :snake: My Code
  ```python
  def zip_it(a, b):
-  return list(zip(a,b)) if len(a)==len(b) else "sizes don't match"
+  return list(zip(a,b)) if len(a) == len(b) else "sizes don't match"
  ```
