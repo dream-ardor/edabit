@@ -155,7 +155,7 @@ convert_to_decimal(["33%", "98.1%", "56.44%", "100%"]) ➞ [0.33, 0.981, 0.5644,
 ### :sunrise_over_mountains: My Code
 ```ruby
 def convert_to_decimal(p)
-  p.map{|x| x.to_f/100 }
+  p.map{|x| x.to_f / 100 }
 end
 ```
 
