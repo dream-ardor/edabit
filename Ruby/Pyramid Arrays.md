@@ -12,6 +12,11 @@ pyramid_arrays(5) ➞ [[1], [2, 2], [3, 3, 3], [4, 4, 4, 4], [5, 5, 5, 5, 5]]
 ### 💎 My Code
 ```ruby
 def pyramid_arrays(n)
+  (1..n).map{|a|[a] * a}
+end
+
+#alternate
+def pyramid_arrays(n)
   (1..n).map{|a| Array.new(a, a)}
 end
 ```
