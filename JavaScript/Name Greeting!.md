@@ -12,7 +12,8 @@ helloName("Ed") ➞ "Hello Ed!"
 
 ## My Code
 ```js
-const helloName = name => {
- return "Hello " + name + "!";
-}
+const helloName = name =>  "Hello " + name + "!";
+
+//alternate
+const helloName = name => `Hello ${name}!`;
 ```
