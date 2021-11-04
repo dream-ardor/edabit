@@ -11,5 +11,5 @@ dividesEvenly(85, 4) ➞ false
 ```
 ### 🌴 My Code
 ```c#
-class Program {public static bool dividesEvenly(int a,int b)=> a % b == 0;}
+class Program {public static bool dividesEvenly(int a, int b)=> a % b == 0;}
 ```
