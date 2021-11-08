@@ -11,14 +11,7 @@ match("venom", "VENOM") ➞ true
 
 match("mask", "mAskinG") ➞ false
 ```
-## My Code
+## 🆑 My Code
 ```js
-function match(s1, s2) {
-	if (s1.toUpperCase() === s2.toUpperCase()) {
-	 return true;
-	}
-	else {
-	 return false;
-	}
-}
+const match = (a,b) => a.toUpperCase() == b.toUpperCase();
 ```
