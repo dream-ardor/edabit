@@ -11,6 +11,10 @@ noOdds([718, 991, 449, 644, 380, 440]) ➞ [718, 644, 380, 440]
 ```
 ###  🌧️ My Code
 ```swift
+let noOdds = {(a:[Int) in a.filter{$0 % 2 == 0}]
+
+
+//alternate
 func noOdds(_ a: [Int]) -> [Int] {
   return a.filter{$0 % 2 == 0};
 }
