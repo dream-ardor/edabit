@@ -29,6 +29,6 @@ sum_of_evens([
 ### :stars: My Code
 ```ruby
 def sum_of_evens(a)
-  a.flatten.select{|x| x % 2 == 0}.reduce(0){|x,y| x+y}
+  a.flatten.select{|x| x % 2 == 0}.reduce(0){|x, y| x + y}
 end
 ```
