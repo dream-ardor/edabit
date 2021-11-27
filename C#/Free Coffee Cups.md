@@ -12,5 +12,5 @@ TotalCups(213) ➞ 248
 ```
 ### ☕ My Code
 ```c#
-class Program {public static int TotalCups(int n)=> n + (n/6);}
+class Program {public static int TotalCups(int n) => n + (n/6);}
 ```
