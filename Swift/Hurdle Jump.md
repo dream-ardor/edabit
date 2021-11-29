@@ -21,4 +21,10 @@ Return true for the edge case of an empty array of hurdles. (Zero hurdles means 
 func hurdleJump(_ h: [Int], _ j: Int) -> Bool {
  return h.max() ?? 0 <= j;
 }
+
+//alternate solutions
+
+let hurdleJump =  {(a:[Int],b:Int) in a.max() ?? 0 <= b}
+
+let hurdleJump =  {(a:[Int],b:Int) in a.filter{$0 < b}.count > 0 || a == []}
 ```
