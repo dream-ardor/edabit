@@ -13,11 +13,11 @@ amplify(3) ➞ [1, 2, 3]
 amplify(25) ➞ [1, 2, 3, 40, 5, 6, 7, 80, 9, 10, 11, 120, 13, 14, 15, 160, 17, 18, 19, 200, 21, 22, 23, 240, 25]
 ```
 
-## My Code
+## 4️⃣ My Code
 ```js
 function amplify(num) {
-	return Array(num).fill(1)
-	.map((v,i) => v+ i)
-	.map(v => v % 4 == 0 ? v * 10 : v)
+  return Array(num).fill(1)
+    .map((v,i) => v + i)
+    .map(v => v % 4 == 0 ? v * 10 : v)
 }
 ```
