@@ -12,11 +12,11 @@ hasSpaces("") ➞ false
 
 hasSpaces(",./!@#") ➞ false
 ```
-### :hotsprings:My Code
+### :hotsprings:  My Code
 ```java
 public class Challenge {
-	public static boolean hasSpaces(String str) {
-		return str.contains(" ");
-	}
+  public static boolean hasSpaces(String str) {
+    return str.contains(" ");
+  }
 }
 ```
