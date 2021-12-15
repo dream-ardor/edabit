@@ -12,5 +12,5 @@ add_indexes([5, 4, 3, 2, 1]) ➞ [5, 5, 5, 5, 5]
 ### :computer: My Code
 ```python
 def add_indexes(l):
- return [a+b for a,b in enumerate(l)]
+ return [a + b for a, b in enumerate(l)]
 ```
