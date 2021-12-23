@@ -14,4 +14,8 @@ discount(100, 75) ➞ 25
 ### 🏦 My Code
 ```swift
 let discount:(Double, Double) -> Double = {$0 * (100 - $1) / 100}
+
+or
+
+let discount = {(p:Double, d:Double) in p * ( 100 - d) / 100}
 ```
