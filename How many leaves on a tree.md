@@ -1,4 +1,4 @@
-how many leaves on a tree
+## How many leaves on a tree
 
 make a function that will take a string which will either be big tree medium tree or a small tree and return how manny leaves there are on this big tree. on every branch there are N leaves. note :
 ```
@@ -18,11 +18,11 @@ how_many_leaves("small tree", 27) ➞ 675
 ```
 ### :snake: My Code
 ```python
-how_manny_leaves = lambda t,n:{'b':100, 'm':50, 's':25}[t[0]]* n
+how_manny_leaves = lambda t, n:{'b':100, 'm':50, 's':25}[t[0]] * n
 
 #alternate solution
 def how_manny_leaves(t,n):
-  return n * 100 if t == 'big tree' else n*50 if t == 'medium tree' else n*25
+  return n * 100 if t == 'big tree' else n*50 if t == 'medium tree' else n * 25
   
 #alternate soution 2
 def how_manny_leaves(t,n):
