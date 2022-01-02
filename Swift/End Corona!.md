@@ -12,4 +12,8 @@ endCorona(30000, 25000, 390205) ➞ 79
 ### 💉 My Code
 ```swift
 let endCorona:(Int,Int,Int) -> Int = {1 | $2 / ($0 - $1)}
+
+
+//alternate solution
+let endCorona = { 1 | $2 / ($0 - $1)}
 ```
