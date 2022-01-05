@@ -9,5 +9,5 @@ Flip(0) ➞ 1
 ```
 ### 🌴 My Code
 ```c#
-class Program {public static int Flip(int y)=> 1 - y;}
+class Program {public static int Flip(int y) => 1 - y;}
 ```
