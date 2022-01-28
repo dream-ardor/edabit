@@ -12,5 +12,5 @@ afterNMonths(1444, 60) ➞ 1449
 
 ### 🗓️ My Code
 ```c++
-#define afterNMonths(y,m) y+m/12
+#define afterNMonths(y, m) y + m / 12
 ```
