@@ -20,10 +20,9 @@ calcDeterminant([
 ]) ➞ 0
 ```
 
-## My Code
+## ✡️  My Code
 ```js
-const calcDeterminant = matrix => (matrix[0][0]* matrix[1][1])-
-	(matrix[0][1]* matrix[1][0]);
+const calcDeterminant = matrix => (matrix[0][0] * matrix[1][1]) - (matrix[0][1] * matrix[1][0]);
 
 
 ```
