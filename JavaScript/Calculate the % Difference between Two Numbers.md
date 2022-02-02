@@ -18,7 +18,7 @@ Notes
 Round your result to one decimal place.
 You will be given only whole numbers as test input.
 
-### :dvd:My Code
+### :dvd: My Code
 ```js
-const percentDiff = (num1, num2)=> +(Math.abs(num1 - num2) / ((num1+num2) / 2) * 100).toFixed(1);
+const percentDiff = (num1, num2) => +(Math.abs(num1 - num2) / ((num1+num2) / 2) * 100).toFixed(1);
 ```
