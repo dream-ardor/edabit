@@ -15,6 +15,5 @@ Your function should accept negative numbers.
 ```
 ### :computer: My Code
 ```python
-def add_nums(n):
-  return eval(n.replace(',','+'))
+add_nums = lambda n: eval(n.replace(',' , '+'))
 ```
