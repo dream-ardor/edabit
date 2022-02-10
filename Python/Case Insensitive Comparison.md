@@ -13,5 +13,5 @@ match("mask", "mAskinG") ➞ False
 ### My Code
 ```python
 def match(s1, s2):
-	return s1.lower() == s2.lower();
+  return s1.lower() == s2.lower();
 ```
