@@ -15,5 +15,5 @@ find_digit_amount(0) ➞ 1
 ### :bread: My Code
 ```python
 def find_digit_amount(num):
-	return len(str(num));
+  return len(str(num));
 ```
