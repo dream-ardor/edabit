@@ -6,11 +6,11 @@ is_empty({}) ➞ True
 
 is_empty({ "a": 1 }) ➞ False
 ```
-### :candy:My Code
+### :candy: My Code
 ```python
 def is_empty(dict):
-	if not dict:
-	  return True
-	else:
-	  return False
+  if not dict:
+   return True
+  else:
+   return False
 ```
