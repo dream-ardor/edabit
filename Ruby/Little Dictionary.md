@@ -8,7 +8,7 @@ dictionary("tri", ["triplet", "tries", "trip", "piano", "tree"]) ➞ ["triplet",
 
 dictionary("beau", ["pastry", "delicious", "name", "boring"]) ➞ []
 ```
-### :stars:My Code
+### :stars: My Code
 ```ruby
 def dictionary(i, w)
   w.select{|a|a.start_with?(i)}
