@@ -8,8 +8,8 @@ next_element([-5, -6, -7]) ➞ -8
 
 next_element([2, 2, 2, 2, 2]) ➞ 2
 ```
-### :fireworks:My Code
+### :fireworks: My Code
 ```python
 def next_element(lst):
-	return lst[-1] +  (lst[-1] - lst[-2])
+  return lst[-1] + (lst[-1] - lst[-2])
 ```
