@@ -9,11 +9,11 @@ sum_numbers(1) ➞ 1
 
 sum_numbers(12) ➞ 78
 ```
-### :microscope:My Code
+### :microscope: My Code
 ```python
 def sum_numbers(n):
-	if n <= 1:
-	  return n
-	else:
-	  return n + sum_numbers(n-1)
+  if n <= 1:
+   return n
+  else:
+   return n + sum_numbers(n-1)
 ```
