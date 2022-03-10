@@ -13,7 +13,8 @@ remove_first_last("a") ➞ "a"
 ```
 Notes:
 For words with two or fewer letters (including an empty string), return the string itself (see example #4).
-### My Code
+
+### 🐍 My Code
 ```python
 def remove_first_last(txt):
   return txt[1:-1] if len(txt) > 2 else txt
