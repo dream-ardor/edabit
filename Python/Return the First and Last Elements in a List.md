@@ -8,8 +8,7 @@ first_last(["edabit", 13, None, False, True]) ➞ ["edabit", True]
 
 first_last([None, 4, "6", "hello", None]) ➞ [None, None]
 ```
-### :rice:My Code
+### :rice: My Code
 ```python
-def first_last(lst):
-	return [lst[0],lst[-1]];
+first_last = lambda l:[lst[0],lst[-1]]
 ```
